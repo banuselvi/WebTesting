@@ -17,12 +17,15 @@ public class WebTesting {
 	private void USA(){
 		System.out.println("Us");
 	}
-
+	private void newMethod() {
+		System.out.println("new");
+	}
 	public static void main(String[] args) {
 		WebTesting f=new WebTesting();
 		f.landTrans();
 		f.airTrans();
 		f.seaTrans();
+		f.newMethod();
 	}
 	}
 
